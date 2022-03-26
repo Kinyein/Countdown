@@ -7,22 +7,26 @@ export const ImgFixed = styled.img`
     top: 0;
     left: 0;
     right: 0;
+    z-index: -10;
     /* background-color: red;   */
 `
 export const TitleDiv = styled.div`
-    margin: 6%;
-    /* background-color: hsl(236, 21%, 26%); */
+    margin: 10% 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     color: hsl(0, 0%, 100%);
 `
 export const CountDown = styled.div`
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
     user-select: none;
+    margin: 0 60px;
+    @media (max-height: 460px){
+        /* margin-bottom: 150px; */
+    }
 `
 export const Time = styled.div`
     display: flex;
@@ -32,12 +36,15 @@ export const Time = styled.div`
     height: 100px;
     background-color: hsl(236, 21%, 26%);
     border-radius: 8px;
+    
 `
 export const TextTime = styled.p`
     color: hsl(237, 18%, 59%);
+    text-align: center;
     font-size: 13px;
 `
 export const Number = styled.h1`
     color: hsl(345, 95%, 68%);
-    font-size: 65px;
+    text-align: center;
+    font-size: 60px;
 `
