@@ -1,0 +1,5 @@
+ion-icon:hover{
+    color: hsl(345, 95%, 68%);
+    transform: scale(1.2);
+    transition: .5s;
+}
