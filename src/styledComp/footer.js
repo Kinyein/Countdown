@@ -21,3 +21,6 @@ export const FooterIcons = styled.div`
     color: hsl(237, 18%, 59%);
     font-size: 40px; //Icons size
 `
+export const LinkSocial = styled.a`
+    color: hsl(237, 18%, 59%);
+`
