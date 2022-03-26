@@ -6,7 +6,7 @@ export const ImgFixed = styled.img`
     position: fixed;
 `
 export const TitleDiv = styled.div`
-    height: 250px;
+    margin: 6%;
     /* background-color: hsl(236, 21%, 26%); */
     display: flex;
     justify-content: center;
@@ -18,8 +18,9 @@ export const CountDown = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    margin: 0 10px;
     user-select: none; 
+    margin-bottom: 100px;
+    z-index: 10;
 `
 export const Time = styled.div`
     display: flex;

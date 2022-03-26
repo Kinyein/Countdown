@@ -7,6 +7,7 @@ export const FooterDivImg = styled.div`
     justify-content: center;
     align-items: center;
     bottom: 0;
+    z-index: -10;
 `
 export const FooterIcons = styled.div`
     display: flex;
