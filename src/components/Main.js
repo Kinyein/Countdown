@@ -16,8 +16,7 @@ const Main = () => {
     const { remainTime, remainSeconds, remainMinutes, remainHours, remainDays, finalMessage } = date
 
     useEffect(() => {
-        countDown('Mar 26 2022 18:30:00 GMT-0500')
-        // endCountDown()
+        countDown('Apr 20 2022 12:00:00 GMT-0500')
     }, [])
 
 
