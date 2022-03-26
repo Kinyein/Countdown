@@ -6,8 +6,9 @@ import starsImg from '../img/bg-stars.svg'
 
 const Main = () => {
     return (
-        <div>
+        <div><ImgFixed src={starsImg} />
             <center>
+            
                 <TitleDiv>
                     <h2>WE'RE LAUNCHING SOON</h2>
                 </TitleDiv>
@@ -41,8 +42,7 @@ const Main = () => {
                     </div>
                 </CountDown>
             </center>
-
-            <ImgFixed src={starsImg} />
+            
         </div>
     )
 }

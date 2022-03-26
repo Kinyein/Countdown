@@ -6,4 +6,5 @@
 body{
     background-color: hsl(235, 16%, 14%);
     font-family: 'Red Hat Text', sans-serif;
+    /* overflow-y: hidden; */
 }

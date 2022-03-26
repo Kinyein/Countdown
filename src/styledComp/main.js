@@ -2,8 +2,12 @@ import styled from 'styled-components'
 
 export const ImgFixed = styled.img`
     width: auto;
-    height: 100%;
+    height: 120%;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background-color: red;   */
 `
 export const TitleDiv = styled.div`
     margin: 6%;
@@ -18,9 +22,7 @@ export const CountDown = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    user-select: none; 
-    margin-bottom: 100px;
-    z-index: 10;
+    user-select: none;
 `
 export const Time = styled.div`
     display: flex;
